@@ -5,6 +5,7 @@ L'application est disponible sur le site officiel : https://www.autohotkey.com/
 Cliquer sur Download, puis v1.1, lancer le programme d'installation et suivre les étapes (installation en 1 minute chrono).
 
 
+
 --- Fichier principal, Opti.ahk
 
 Le fichier Opti.ahk est le fichier maître, à lancer en premier. Il contient les raccourcis claviers (Hotkeys) pour lancer les fonctions spécifiques. Lancer ce fichier lance également automatiquement les autres scripts (Texte.ahk et Fonctions.ahk)
@@ -18,6 +19,7 @@ Par défaut seules les combinaisons de 1 ou 2 touches peuvent peuvent être écr
 Pour apprendre à créer vos propres fonctions, je vous invite à lire la documentation très complète d'AutoHotKey sur ce lien https://www.autohotkey.com/docs/v1/Hotstrings.htm
 
 - L'appui simultané de CapsLock et la touche sélectionnée donne cette fonction. Un appui sur la touche Verr. Maj. vous donne un aperçu en infobulle des raccourcis.
+
 Capslock +
   Esc : Calculatrice / Alt+Esc : Gestionnaire des tâches
   ² : Quick Menu / 1 : 7 / 2 : 8 / 3 : 9 / 4 : casse (Maj : MAJ ; Ctrl : min ; Alt : toggle ; Alt+Maj : iNV ; Ctrl : Swap) / 5 : parentheses&brackets / 789à)= : rien
@@ -26,7 +28,9 @@ Capslock +
   < : < / W : 0 / X : "/" / C : * / V : Demander à chatGPT de reformuler pour intégrer dans un courrier d'hospi /  B : corriger ordonnance / N : corriger courrier / , : effacer texte sélectionné dans tout le document / ;:! : rien
   Clic gauche : Double clic
 
+
 - Numlock : les touches du Numpad deviennent des raccourcis texte (par exemple pour vos adresses mail), un appui sur la touche Verr. Num. vous donne un aperçu en infobulle des raccourcis texte envoyés 
+
 
 - Quand la souris est sur le bord de l'écran :
 	Bord Gauche : 
@@ -36,16 +40,19 @@ Capslock +
 	Bords Haut et Bas :
 		Rien
 
+
 - Souris 
 	Rbutton + WheelUp : Page Up / Rbutton + MWheelDown : Page Down
 	Mbutton + WheelUp : AltTab GUI Next Window / Mbutton + MWheelDown : AltTab GUI Prev Window
 	MButton + Drag : Move Window / Ctrl+MButton + Drag : Resize Window (adjust nearest corner) / RButton x2 : Maximize Window
+
 
 - RButton + déplacer souris : Suivre une séquence de mouvements pendant que le clic droit est enfocée déclenche la fonction spécifiée dans l'infobulle.
 	Up : Win+Tab / Up->Left : previous tab / Up->Right : Next Tab / Up->Left->Down : Prev Desktop / Up->Right->Down : Prev Desktop
 	Down : Minimize All (aka panic gesture) /
 	Left : AltTab / Left->Up : Maximize Window / Left->Down : Minimize Window
 	Right : Maj+AltTab / Right->Down : Close Window
+
 
 
 --- Fichier accessoire, Texte.ahk
@@ -58,6 +65,7 @@ Par exemple
 ::ecgnl::ECG Normal
 Si vous écrivez "ecgnl" (sans apostrophe) suivi d'un espace ou ponctuation, le script remplacera automatiquement par "ECG Normal" (sans apostrophe) suivi de l'espace ou la ponctuation que vous aviez tapé.
 Pour + d'informations vous pouvez consulter la documentation très complète d'AutoHotKey sur ce lien https://www.autohotkey.com/docs/v1/Hotstrings.htm
+
 
 
 --- Fichier accessoire, Fonctions.ahk
