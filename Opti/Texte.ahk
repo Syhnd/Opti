@@ -1,5 +1,5 @@
-﻿; Ce fichier est utilisé pour les Hotstrings. Les Hotstrings sont des remplacement automatiques de texte au fur et à mesure que vous écrivez, par exemple pour une fonction Autocorrect (en première partie du fichier 650+ fautes de frappe fréquentes), ou des abréviations (2ème partie du fichier).
-; Ce script est lancé automatiquement lorsque vous lancez optilib.ahk, mais vous pouvez choisir de le lancer seul, si vous ne souhaitez utiliser que les Hotstrings sans utiliser les raccourcis claviers/fonctions.
+; Ce fichier est utilisé pour les Hotstrings. Les Hotstrings sont des remplacement automatiques de texte au fur et à mesure que vous écrivez, par exemple pour une fonction Autocorrect (en première partie du fichier 650+ fautes de frappe fréquentes), ou des abréviations (2ème partie du fichier).
+; Ce script est lancé automatiquement lorsque vous lancez Opti.ahk, mais vous pouvez choisir de le lancer seul, si vous ne souhaitez utiliser que les Hotstrings sans utiliser les raccourcis claviers/fonctions.
 ; Vous pouvez ajouter vos propres raccourcis à la fin de ce fichier. Pour ce faire il faut précéder et suivre le raccourci que vous souhaitez remplacer par deux symboles ":" (sans apostrophe) et écrire à la suite le mot qui sera écrit à la place.
 ; Par exemple 
 ; ::ecgnl::ECG Normal
