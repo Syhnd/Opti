@@ -34,17 +34,17 @@ Pour apprendre à créer vos propres fonctions, je vous invite à lire la docume
 
 Capslock +
 
-  Esc : Calculatrice / Alt+Esc : Gestionnaire des tâches
+  	Esc : Calculatrice / Alt+Esc : Gestionnaire des tâches / F1 : Volume Mute / F2 : Volume- / F3 : Volume+ / F4 : Suspendre script / F5 : Relancer script / F6-F12 : rien
 
-  ² : Quick Menu / 1 : 7 / 2 : 8 / 3 : 9 / 4 : casse (Maj : MAJ ; Ctrl : min ; Alt : toggle ; Alt+Maj : iNV ; Ctrl : Swap) / 5 : parentheses&brackets / 789à)= : rien
+  	² : Quick Menu / 1 : 7 / 2 : 8 / 3 : 9 / 4 : casse (Maj : MAJ ; Ctrl : min ; Alt : toggle ; Alt+Maj : iNV ; Ctrl : Swap) / 5 : parentheses&brackets / 789à)= : rien
 
-  A : 4 / Z : 5 / E : 6 / R : - / T : affiche l'heure / Y : transparence / U and I : Remplacer texte spécifique / P : aperçu avant impression / TabYO^$* : rien
+	A : 4 / Z : 5 / E : 6 / R : - / T : affiche l'heure / Y : transparence / U and I : Remplacer texte spécifique / P : aperçu avant impression / TabYO^$* : rien
   
-  Q : 1 / S : 2 / D : 3 / F : + / G : chercher texte sélectionné sur google / H : ajouter hotstring / J : Always On Top / KLMù* : rien
+ 	Q : 1 / S : 2 / D : 3 / F : + / G : chercher texte sélectionné sur google / H : ajouter hotstring / J : Always On Top / KLMù* : rien
 
-  < : < / W : 0 / X : "/" / C : * / V : Demander à chatGPT de reformuler pour intégrer dans un courrier d'hospi /  B : corriger ordonnance / N : corriger courrier / , : effacer texte sélectionné dans tout le document / ;:! : rien
+	< : < / W : 0 / X : "/" / C : * / V : Demander à chatGPT de reformuler pour intégrer dans un courrier d'hospi /  B : corriger ordonnance / N : corriger courrier / , : effacer texte sélectionné dans tout le document / ;:! : rien
 
-  Clic gauche : Double clic
+ 	 Clic gauche : Double clic
 
 
 - Numlock : les touches du Numpad deviennent des raccourcis texte (par exemple pour vos adresses mail), un appui sur la touche Verr. Num. vous donne un aperçu en infobulle des raccourcis texte envoyés 
