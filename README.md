@@ -1,9 +1,11 @@
 Ce script Autohotkey est conçu pour pour faire gagner du temps sur votre ordinateur. v0.12. 05/12/25. ©Syhnd.
 
-Il nécessite d'avoir installé l'application AutoHotKey v1.1 au préalable. 
+Il nécessite d'avoir installé l'application AutoHotKey v1.1 au préalable. Compatible Windows uniquement.
 L'application est disponible sur le site officiel : https://www.autohotkey.com/
-Cliquer sur Download, puis v1.1, lancer le programme d'installation et suivre les étapes (installation en 1 minute chrono).
+Cliquer sur Download, puis v1.1 (la version 2.0 est sortie mais certaines fonctions de mon script ne sont pas compatibles avec, donc il faut rester sur la 1.1), Lancer le programme d'installation et Suivre les étapes (installation en 1 minute chrono).
 
+Puis sur cette page github, Cliquer sur le bouton vert "Code <>" en haut à droite et Télécharger en fichier .zip
+Extraire ce document .zip à l'endroit de votre choix et Double-cliquer sur le fichier Opti.ahk. Le script se lance et vous aurez une petite icône dans votre barre des tâches à côté de votre horloge. Vous pouvez terminer le script en faisant un clic droit dessus.
 
 
 --- Fichier principal, Opti.ahk
