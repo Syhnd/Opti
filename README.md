@@ -1,4 +1,4 @@
-Ce script Autohotkey est conçu pour pour faire gagner du temps sur votre ordinateur. v0.12. 05/12/25. ©Syhnd.
+Ce script Autohotkey est conçu pour pour faire gagner du temps sur votre ordinateur. v0.12. 05/12/25. ©SyhnD.
 
 Il nécessite d'avoir installé l'application AutoHotKey v1.1 au préalable. Compatible Windows uniquement.
 
@@ -111,4 +111,8 @@ Ce fichier ne peut être lancé seul, il a besoin d'Opti.ahk pour fonctionner (i
 À moins de savoir coder, il est recommandé de ne pas le modifier.
 
 
-Pour toute question, n'hésitez pas à me contacter par les canaux usuels :)
+Pour toute question, n'hésitez pas à me contacter par les canaux usuels :) (Généralement l'endroit où vous avez découvert ce script). 
+
+Si ce script vous a été utile, n'hésitez pas à me remercier en m'offrant une tasse de café ou une carte graphique RTX5090 😂
+
+https://www.paypal.com/donate?business=B6PFUFY2Q2FT2&currency_code=EUR
