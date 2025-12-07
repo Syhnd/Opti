@@ -37,6 +37,10 @@
 	; Left : AltTab / Left->Up : Maximize Window / Left->Down : Minimize Window
 	; Right : Maj+AltTab / Right->Down : Close Window
 
+; Pour toute question, n'hésitez pas à me contacter par les canaux usuels :) (Généralement l'endroit où vous avez découvert ce script).
+; Si ce script vous a été utile, n'hésitez pas à me remercier en m'offrant une tasse de café ou une carte graphique RTX5090 😂
+; https://www.paypal.com/donate?business=B6PFUFY2Q2FT2&currency_code=EUR
+
 ; ===========================
 ; INIT
 ; ===========================
