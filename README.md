@@ -4,8 +4,10 @@ Il nécessite d'avoir installé l'application AutoHotKey v1.1 au préalable.
 L'application est disponible sur le site officiel : https://www.autohotkey.com/
 Cliquer sur Download, puis v1.1, lancer le programme d'installation et suivre les étapes (installation en 1 minute chrono).
 
---- Fichier principal Opti.ahk
-Le fichier Opti.ahk est le fichier maître, à lancer en premier. Il contient les raccourcis claviers (Hotkeys) pour lancer les fonctions spécifique. Lancer ce fichier lance également automatiquement les autres scripts (Texte.ahk et Fonctions.ahk)
+
+--- Fichier principal, Opti.ahk
+
+Le fichier Opti.ahk est le fichier maître, à lancer en premier. Il contient les raccourcis claviers (Hotkeys) pour lancer les fonctions spécifiques. Lancer ce fichier lance également automatiquement les autres scripts (Texte.ahk et Fonctions.ahk)
 Vous pouvez ajouter vos propres raccourcis personnalisés à la fin de ce fichier en suivant le modèle suivant : Touche désirée suivi de :: puis la fonction désirée.
 
 Par exemple
@@ -45,7 +47,9 @@ Capslock +
 	Left : AltTab / Left->Up : Maximize Window / Left->Down : Minimize Window
 	Right : Maj+AltTab / Right->Down : Close Window
 
+
 --- Fichier accessoire, Texte.ahk
+
 Le fichier Texte.ahk est utilisé pour les Hotstrings. Les Hotstrings sont des remplacement automatiques de texte au fur et à mesure que vous écrivez, par exemple pour une fonction Autocorrect (en première partie du fichier 650+ fautes de frappe fréquentes), ou des abréviations (2ème partie du fichier).
 Ce script est lancé automatiquement lorsque vous lancez Opti.ahk, mais vous pouvez choisir de le lancer seul, si vous ne souhaitez utiliser que les Hotstrings, sans utiliser les raccourcis claviers/fonctions.
 
@@ -55,7 +59,9 @@ Par exemple
 Si vous écrivez "ecgnl" (sans apostrophe) suivi d'un espace ou ponctuation, le script remplacera automatiquement par "ECG Normal" (sans apostrophe) suivi de l'espace ou la ponctuation que vous aviez tapé.
 Pour + d'informations vous pouvez consulter la documentation très complète d'AutoHotKey sur ce lien https://www.autohotkey.com/docs/v1/Hotstrings.htm
 
+
 --- Fichier accessoire, Fonctions.ahk
+
 Le fichier Fonctions.ahk contient ce qu'on appelle les fonctions et labels.
 Ce fichier ne peut être lancé seul, il a besoin d'Opti.ahk pour fonctionner (il est lancé automatiquement par Opti.ahk).
 À moins de savoir coder, il est recommandé de ne pas le modifier.
