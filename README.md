@@ -51,12 +51,16 @@ Capslock +
 
 
 - Quand la souris est sur le bord de l'écran :
+
 	Bord Gauche : 
+
 		WheelUp : Vol+ / WheelDown : Vol- / Mbutton : Mute / CapsLock : AltTab
+
 	Bord Droit :
+
 		WheelUp : Brightness+ / WheelDown : Brightness-
-	Bords Haut et Bas :
-		Rien
+
+	Bords Haut et Bas : Rien
 
 
 - Souris
