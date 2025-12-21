@@ -74,7 +74,7 @@ Capslock +
 
 - RButton + déplacer souris : Suivre une séquence de mouvements pendant que le clic droit est enfocée déclenche la fonction spécifiée dans l'infobulle.
 
-	Up : Win+Tab / Up->Left : previous tab / Up->Right : Next Tab / Up->Left->Down : Prev Desktop / Up->Right->Down : Prev Desktop
+	Up : Win+Tab / Up->Left : Previous tab / Up->Right : Next Tab / Up->Left->Down : Prev Desktop / Up->Right->Down : Next Desktop
 
 	Down : Minimize All (aka panic gesture) /
 
