@@ -1302,8 +1302,12 @@ Return
 ::tlm::tout le monde
 :*:ttt::traitement
 ::tropo::troponine
-::vit D::vitamine D
-::vit K::vitamine K
+:C:vit A::vitamine A
+:C:vit B::vitamine B
+:C:vit C::vitamine C
+:C:vit D::vitamine D
+:C:vit E::vitamine E
+:C:vit K::vitamine K
 :C:vsh::veines sus hépatiques
 ::la repo::la repolarisation
 ::tbrepo::trouble de la repolarisation
