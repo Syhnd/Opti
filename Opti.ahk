@@ -1,4 +1,4 @@
-; Ce script Autohotkey est conçu pour pour faire gagner du temps sur votre ordinateur. v0.12. 05/12/25. ©Syhnd.
+; Ce script Autohotkey est conçu pour pour faire gagner du temps sur votre ordinateur. v0.12.1. 22/12/25. ©Syhnd.
 ; Ce fichier est le fichier maître, à lancer en premier. Il contient les raccourcis claviers (Hotkeys) pour lancer les fonctions spécifiques. lancer ce fichier lance également automatiquement les autres scripts (texte et fonctions)
 ; Vous pouvez ajouter vos propres raccourcis personnalisés à la fin de ce fichier en suivant le modèle suivant : Touche désirée suivi de :: puis la fonction désirée.
 ; Par exemple
@@ -32,7 +32,7 @@
 	; MButton + Drag : Move Window / Ctrl+MButton + Drag : Resize Window (adjust nearest corner) / RButton x2 : Maximize Window
 
 ; RButton + déplacer souris : Follow a specific path while RButton pressed to launch sequence
-	; Up : Win+Tab / Up->Left : previous tab / Up->Right : Next Tab / Up->Left->Down : Prev Desktop / Up->Right->Down : Prev Desktop
+	; Up : Win+Tab / Up->Left : Previous tab / Up->Right : Next Tab / Up->Left->Down : Prev Desktop / Up->Right->Down : Next Desktop
 	; Down : Minimize All (aka panic gesture) /
 	; Left : AltTab / Left->Up : Maximize Window / Left->Down : Minimize Window
 	; Right : Maj+AltTab / Right->Down : Close Window
