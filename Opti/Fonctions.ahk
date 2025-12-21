@@ -1,4 +1,4 @@
-﻿; Ce fichier contient ce qu'on appelle les fonctions et labels.
+; Ce fichier contient ce qu'on appelle les fonctions et labels.
 ; Ce fichier ne peut être lancé seul, il a besoin d'Opti.ahk pour fonctionner (il est lancé automatiquement par Opti.ahk).
 ; À moins de savoir coder, il est recommandé de ne pas le modifier.
 
@@ -16,7 +16,7 @@ HotstringMenuAutoExecute:
 	GreekMin := {α: "&a",β: "&b",γ: "&g",δ: "&d",ε: "&e",ϵ: "&ef",ζ: "&z",η: "&h",θ: "&th",ϑ: "&thf",ι: "&i",κ: "&k",ϰ: "&kf",λ: "&l",μ: "&m",ν: "&n",ξ: "&x",π: "&p",ρ: "&r",σ: "&s",τ: "&t",υ: "&u",φ: "&f",ϕ: "&ff",χ: "&q",ψ: "&ps",ω: "&o",ϛ: "&sf"}
 	GCurMenu := {"€": "&E","$": "&S","¢": "&C","£": "&L","₺": "&T","₿": "&B","¥": "&Y","¤":"& "}
 	HConvertMenu := {ConvertCap: "&C",ConvertSentence: "&S",Convertlower: "&L",ConvertUPPER: "&U",ConvertiNV: "&I",ConvertRev: "&R",ConvertSwap: "&W"}
-	Greetings := ["Hi!","Hello!","&What's up?","How's it going?"]
+	Greetings := ["CR type echo","CR type TSA","CR type Holter ECG","CR Type MAPA"]
 	HSAutres := ["ƒ","ℓ","‰","–","—","♀","♂","√","∞","¶","¬","♮","♭","×","÷","†","‡","¶","«","»","…"]
 
 
@@ -1461,7 +1461,7 @@ Return
 ; Script correction word
 WaitEnter() {
 	If WinActive("ahk_exe WINWORD.exe") OR WinActive("ahk_exe wfica32.exe") {
-		If (GetKeyState("Escape")) {
+		If (GetKeyState("Escape", "P")) {
 			GoSub, CorReset
 		} Else {
 			GoSub, EscWait
